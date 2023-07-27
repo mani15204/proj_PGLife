@@ -1,0 +1,161 @@
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-img{
+    height: 300px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.property-card{
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+.star-container{
+    color: #EA322E;
+}
+
+.star-container-blue{
+    color: rgb(81, 168, 197);
+}
+
+.stars-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.property-name{
+    margin-bottom: 0px;
+}
+
+.property-address{
+    color: #6f6f6f;
+}
+
+.gender-logo{
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+.rent{
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.rent-unit{
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+.amenities{
+    margin-top: 100px;
+}
+
+.amenities-listing-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.amenities-listing-heading{
+    font-weight: bold;
+}
+
+.amenities-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.amenities-content-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-property{
+    margin-top: 100px;
+}
+
+.property-rating{
+    margin-top: 100px;
+}
+
+.property-rating-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 400px){
+    .amenities-listing-div{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width: 850px){
+    .property-rating-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;;
+    }
+}
+
+.blue-circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(81, 168, 197);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    font-size: 50px;
+}
+
+.comments{
+    margin-top: 150px;
+}
+
+.comment-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.italic-center{
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.bold-right{
+    font-weight: bold;
+    text-align: right;
+}
+
+.comment-list{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}

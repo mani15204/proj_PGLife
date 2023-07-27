@@ -1,0 +1,117 @@
+.nav-vl{
+    border-left: 2px solid #d6d6d678;
+    margin: 0px 16px;
+}
+
+.nav-link{
+    border: 0px;
+    background-color: transparent;
+}
+
+.signup-icon{
+    background-color: #E8ECEF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid  #E8ECEF
+}
+
+.signup-input{
+    width: 100%;
+    border: 1px solid #E8ECEF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.signup-gender{
+    display: flex;
+}
+
+@media(max-width:300px){
+    .signup-gender{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.signup-submit{
+    background-color:#4dc7bc;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 0px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    min-width: none;
+}
+
+.footer-link{
+    padding: 40px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 420px){
+    .footer-div{
+        display: grid;
+        grid-template-columns: 114px 119px;
+        grid-template-rows: 50px 50px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+.btn-primary{
+    font-size: 14px;
+    width: 140px;
+    background-color: #4dc7bc;
+    border-color: #4dc7bc;
+}
+
+.btn-primary:hover{
+    background-color: #0f968a;
+    border-color: #0f968a;
+}
+
+.detail-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 576px){
+    .flex-column-whensm{
+        flex-direction: column;
+    }
+}
+
+.breadcrumb{
+    background-color: #e5e3e8;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+.breadcrumb-item{
+    text-decoration: none;
+}
+
+.breadcrumb-item:not(.active){
+    color: rgb(114,182,204);
+}
